@@ -1,6 +1,2 @@
-github.com/regisphilibert/mod-content-test v0.0.0-20190915230901-1e41991b3ee6 h1:jS7ViaPIHWw5gSVi8pX9p9aoMYWQB832qspk5PDxp0M=
 github.com/regisphilibert/mod-content-test v0.0.0-20190915230901-1e41991b3ee6/go.mod h1:1UoMn8NnuoUx+GgWVNHqWVHqvSXAlag0Nph/A+cpqqw=
-github.com/regisphilibert/rp_hugo v0.0.0-20190915230302-e42cf9a540e1/go.mod h1:7+mlqLFY7S8yvYF6zjdnu3Yd6DNLaGCq4CBe0cOfqcA=
-github.com/regisphilibert/rp_hugo_theme v0.0.0-20190915205056-ce3666162482/go.mod h1:psjdV+y6bWtAcnrSebtyeIykaIebPUtsHVgl7vjVUic=
-github.com/theNewDynamic/hugo-component-tnd-forms v1.2.0 h1:pyJMULnGPFKE63l8KJewYwk5Gxzk7HpZQ6gufbY1pi8=
 github.com/theNewDynamic/hugo-component-tnd-forms v1.2.0/go.mod h1:xG4tOWLuWpZzkgnR6hTrngsh7XIUGWKV+XTQg4RMND0=
