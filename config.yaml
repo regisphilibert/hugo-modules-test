@@ -1,0 +1,61 @@
+title: Hugo Starter
+DefaultContentLanguage: en
+MetaDataFormat: yaml
+buildFuture: true
+baseURL: 'https://www.thenewdynamic.org'
+enableRobotsTXT: true
+googleAnalytics: ''
+languageCode: en-us
+themesDir: layout_modules
+theme:
+  - hugo-component-tnd-forms
+
+module:
+  imports:
+    - path: github.com/gohugoio/hugo-component-tnd-forms
+
+preserveTaxonomyNames: true
+blackfriday:
+  extensionsmask:
+    - noIntraEmphasis
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 60
+mediaTypes:
+  text/netlify:
+    delimiter: ''
+    suffixes:
+      - ''
+outputFormats:
+  HEADERS:
+    baseName: _headers
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+  REDIR:
+    baseName: _redirects
+    isPlainText: true
+    mediatype: text/netlify
+    notAlternative: true
+outputs:
+  home:
+    - HTML
+    - HEADERS
+    - REDIR
+params:
+  description: Build Faster Better Websites with modern tools and techniques
+  logo: ''
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+social: {}
+taxonomies:
+  tag: tags
