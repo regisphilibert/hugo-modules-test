@@ -6,13 +6,13 @@ baseURL: 'https://www.thenewdynamic.org'
 enableRobotsTXT: true
 googleAnalytics: ''
 languageCode: en-us
-themesDir: layout_modules
 theme:
-  - hugo-component-tnd-forms
+  - github.com/theNewDynamic/hugo-component-tnd-forms
 
 module:
   imports:
-    - path: github.com/theNewDynamic/hugo-component-tnd-forms
+    - path: github.com/regisphilibert/mod-content-test
+      ignoreConfig: true
 
 preserveTaxonomyNames: true
 blackfriday:

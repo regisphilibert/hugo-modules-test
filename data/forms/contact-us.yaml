@@ -1,0 +1,90 @@
+---
+id: contact
+title: Write to Fresh EBT
+action: "/thank-you/"
+submit: Submit
+js_use: contact
+fields:
+- template: form-input-default
+  type: email
+  label: Email
+  name: email
+  required: true
+- template: form-input-select
+  type: select
+  label: State
+  name: state
+  options:
+  - ""
+  - Alabama
+  - Alaska
+  - Arizona
+  - Arkansas
+  - California
+  - Colorado
+  - Connecticut
+  - Delaware
+  - District Of Columbia
+  - Florida
+  - Georgia
+  - Hawaii
+  - Idaho
+  - Illinois
+  - Indiana
+  - Iowa
+  - Kansas
+  - Kentucky
+  - Louisiana
+  - Maine
+  - Maryland
+  - Massachusetts
+  - Michigan
+  - Minnesota
+  - Mississippi
+  - Missouri
+  - Montana
+  - Nebraska
+  - Nevada
+  - New Hampshire
+  - New Jersey
+  - New Mexico
+  - New York
+  - North Carolina
+  - North Dakota
+  - Ohio
+  - Oklahoma
+  - Oregon
+  - Pennsylvania
+  - Puerto Rico
+  - Rhode Island
+  - South Carolina
+  - South Dakota
+  - Tennessee
+  - Texas
+  - Utah
+  - Vermont
+  - Virginia
+  - Washington
+  - West Virginia
+  - Wisconsin
+  - Wyoming
+  required: true
+- template: form-input-select
+  type: select
+  label: What is the reason for contacting?
+  name: reason
+  options:
+  - ""
+  - Report a Bug
+  - Request a Feature
+  - Other
+  required: true
+- template: form-input-default
+  type: textarea
+  label: Message
+  name: message
+  required: true
+- template: form-input-default
+  type: 'hidden'
+  label: Subject
+  name: subject
