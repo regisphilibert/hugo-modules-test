@@ -23,7 +23,7 @@
     "file-loader": "^1.1.11",
     "lazysizes": "^4.0.2",
     "mini-css-extract-plugin": "^0.4.1",
-    "postcss": "^7.0.1",
+    "postcss": "^8.2.10",
     "postcss-cli": "^6.0.0",
     "postcss-import": "^11.0.0",
     "tailwindcss": "0.6.4",
